@@ -1,0 +1,120 @@
+/*http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally*/
+
+body {
+  background-color: #001F33;
+  color: #FFFFFF;
+  font-family: "Droid serif", serif;
+  text-align: center;
+}
+
+.labels {
+  font-size: 18px;
+  line-height: 6px;
+}
+
+#circle {
+  background-color: #0099CC;
+  font-size: 36px;
+  margin: auto;
+  margin-top: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 70px;
+  border: 2px #FF0000 solid;
+}
+
+#circle:active {  
+  transform: translateY(2px);
+}
+
+#timer {
+  color: #FFFFFF;
+  height: 50px;
+  line-height: 50px;
+  width: 200px;
+  text-align: center;
+  /*margin: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.rows {
+  max-width: 100%;
+  margin: auto;
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+#btnctr {
+  width: 200px;
+  border: 1px #0099CC solid;
+  border-radius: 20px;
+  height: 240px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#break {
+  font-size: 36px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  /*display: table-cell;*/
+}
+
+#session {
+  font-size: 36px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  /*display: table-cell;*/
+}
+
+.buttons {
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /*display: table-cell;*/
+  position: relative;
+}
+
+.btn {
+  background: #DDDDDD;
+  border: 3px #0099CC solid;
+  border-radius: 10px;
+  height: 30px;
+  width: 40px;
+}
+
+.btn:active {  
+  transform: translateY(2px);
+}
+
+#reset {
+  background-color: #AA0000;
+  color: #FFFFFF;
+  font-family: "Droid serif", serif;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px #FF0000 solid;
+}
+
+#reset:active {  
+  transform: translateY(2px);
+}

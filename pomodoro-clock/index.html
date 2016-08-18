@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	<h2>Pomodoro Clock</h2>
+	<p id="status">Click timer to start/pause/adjust</p>
+	<div id="circle">
+	  <div id="timer">00:25:00</div>
+	</div>
+  <div id="btnctr">
+    <p class="labels">Break length</p>
+	<div id="break">5</div>
+	<div class="buttons"><button class="btn" id="addbrk" onclick="changeBrkLength('+1')">+</button> <button class="btn" id="subbrk" onclick="changeBrkLength('-1')">-</button></div>
+	<p class="labels">Session length</p>
+	<div id="session">25</div>
+	<div class="buttons"><button class="btn" id="addminute" onclick="changeSesLength('+1')">+</button> <button class="btn" id="subtractminute" onclick="changeSesLength('-1')">-</button></div>
+  </div>
+  <button id="reset">Reset</button>
+  <script src="js/index.js"></script>
+  </body>
+</html>
