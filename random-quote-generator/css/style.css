@@ -1,0 +1,36 @@
+html {    
+  background-color: #07F;
+  -webkit-transition: background-color 1.2s ease;
+  transition: background-color 1.2s ease;
+  /* Autoprefixer and Normalize replace these browser engine prefixes, code no longer needed
+  -webkit-transition: background-color 1.2s ease;
+  -moz-transition: background-color 1.2s ease;
+  -ms-transition: background-color 1.2s ease;  
+  -o-transition: background-color 1.2s ease;
+  */
+}
+
+#quote {
+  color: #FFF6C4;
+  font-family: "Kadwa", serif;
+  font-size: 24px;
+}
+
+#tweetq > .button {
+  background-color: #FFF;
+}
+
+.button {
+  margin-top: 100px;  
+}
+.row {
+  background-color: #ABC;
+  border-radius: 10px;
+  padding: 10px 10px 5px 10px;
+
+}
+
+button:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+}

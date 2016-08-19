@@ -1,0 +1,1 @@
+A simple application for loading and displaying random quotes using an API.
