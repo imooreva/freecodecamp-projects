@@ -1,0 +1,43 @@
+body {
+  color: #FEA;
+  font-family: "Kadwa", serif;
+  background-color: #103F5E;
+}
+
+.button {
+  background-color: #FFF;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.streaminfo-on {
+  background-color: #D0FFCB;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+  color: #000;
+  margin-bottom: 10px;
+  padding: 10px 5px 0 5px;
+}
+
+.streaminfo-off {
+  background-color: #333;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 2px 5px 0 5px;
+}
+
+.streaminfo-on a {
+  color: #000083;
+  text-decoration: none;
+}
+
+.streaminfo-off a {
+  color: #BBB;
+  text-decoration: none;
+}
+
+.streaminfo-on a:hover,
+.streaminfo-off a:hover {
+  text-decoration: underline;
+}
