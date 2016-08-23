@@ -1,120 +1,108 @@
-/*http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally*/
+#container {
+	transform: scale(1);
+}
 
 body {
-  background-color: #001F33;
-  color: #FFFFFF;
-  font-family: "Droid serif", serif;
-  text-align: center;
+	background-color: #001F33;
+	color: #FFFFFF;
+	font-family: "Droid serif", serif;
+	text-align: center;
 }
 
 .labels {
-  font-size: 18px;
-  line-height: 6px;
+	font-size: 1.125em;
+	line-height: 0.25em;
 }
 
 #circle {
-  background-color: #0099CC;
-  font-size: 36px;
-  margin: auto;
-  margin-top: 15px;
-  width: 200px;
-  height: 50px;
-  border-radius: 70px;
-  border: 2px #FF0000 solid;
+	background-color: #0099CC;
+	font-size: 2.25em;
+	margin: 0.2em auto 0 auto;  
+	width: 200px;
+	height: 50px;
+	border-radius: 70px;
+	border: 2px #FF0000 solid;
 }
 
 #circle:active {  
-  transform: translateY(2px);
+	transform: translateY(2px);
 }
 
 #timer {
-  color: #FFFFFF;
-  height: 50px;
-  line-height: 50px;
-  width: 200px;
-  text-align: center;
-  /*margin: auto;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
-}
-
-.rows {
-  max-width: 100%;
-  margin: auto;
-  display: box;
-  box-pack: center;
-  box-align: center;
+	color: #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;  
+	text-align: center;
 }
 
 #btnctr {
-  width: 200px;
-  border: 1px #0099CC solid;
-  border-radius: 20px;
-  height: 240px;
-  margin: auto;
-  margin-top: 15px;
-  text-align: center;
-  overflow: hidden;
+	width: 200px;
+	border: 1px #0099CC solid;
+	border-radius: 20px;
+	height: 240px;  
+	margin: 0.5em auto 0 auto;  
+	text-align: center;
+	overflow: hidden;
 }
 
 #break {
-  font-size: 36px;
-  margin: auto;
-  left: 0;
-  right: 0;
-  position: absolute;
-  text-align: center;
-  /*display: table-cell;*/
+	font-size: 2.25em;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
 }
 
 #session {
-  font-size: 36px;
-  margin: auto;
-  left: 0;
-  right: 0;
-  position: absolute;
-  text-align: center;
-  /*display: table-cell;*/
+	font-size: 2.25em;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
 }
 
-.buttons {
-  margin: auto;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  /*display: table-cell;*/
-  position: relative;
+.buttons {  
+	margin-top: 3.75em;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	position: relative;
 }
 
 .btn {
-  background: #DDDDDD;
-  border: 3px #0099CC solid;
-  border-radius: 10px;
-  height: 30px;
-  width: 40px;
+	background: #DDDDDD;
+	border: 3px #0099CC solid;
+	border-radius: 10px;
+	height: 30px;
+	width: 55px;
 }
 
 .btn:active {  
-  transform: translateY(2px);
+	transform: translateY(2px);
 }
 
 #reset {
-  background-color: #AA0000;
-  color: #FFFFFF;
-  font-family: "Droid serif", serif;
-  font-size: 24px;
-  margin: auto;
-  margin-top: 10px;
-  width: 100px;
-  height: 40px;
-  border-radius: 15px;
-  border: 2px #FF0000 solid;
+	background-color: #AA0000;
+	color: #FFFFFF;
+	font-family: "Droid serif", serif;
+	font-size: 1.25em;
+	margin: 0.625em auto 0 auto;  
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px #FF0000 solid;
 }
 
 #reset:active {  
-  transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+@media only screen and (max-width: 320px) {
+	#container {
+		transform: scale(0.9);
+	}
 }
