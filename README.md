@@ -1,2 +1,2 @@
 # freecodecamp-projects
-Completed projects from Free Code Camp
+Archived projects and solutions
